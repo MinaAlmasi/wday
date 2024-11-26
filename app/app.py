@@ -15,6 +15,7 @@ st.set_page_config(
 # Custom CSS for styling
 st.markdown("""
     <style>
+    footer {visibility: hidden;}
     .book-container {
         background-color: #f9f7f1;
         border-radius: 10px;
