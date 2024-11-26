@@ -41,6 +41,7 @@ st.markdown("""
         margin-top: 0rem;
         font-style: italic;
         }
+            
     .word-title {
         font-family: 'Georgia', serif;
         color: #444;
@@ -52,6 +53,7 @@ st.markdown("""
     }
     .section-content {
         font-family: 'Georgia', serif;
+        color: #444;
         margin: 1rem 0;
         padding: 0.5rem;
         border-bottom: 1px solid #ddd;
