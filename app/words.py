@@ -6,10 +6,10 @@ words_dict = {
         "synonymer": ["at løbe", "at spurte", "at skynde sig"]
     },
     "vibe": {
-        "betydninger": "1. En måde at udtrykke præference 'at kunne lide'.<br><br> 2. En følelse eller stemning <br><br> 3. At være i overensstemmelse med en anden person",
+        "betydninger": "1. En måde at udtrykke præference 'at kunne lide'.<br><br> 2. En følelse eller stemning <br><br> 3. At være på samme bølgelængde som en anden person",
         "eksempler": "1. Jeg viber virkelig ikke, at Donald Trump vandt det amerikanske valg.<br><br>2. Der er en god vibe i lokalet.<br><br>3. Jeg viber virkelig med IM, kender du hende?",
         "ordklasse": "Verbum",
-        "synonymer": ["at kunne lide", "at føle", "at være enig"]
+        "synonymer": ["at kunne lide", "at føle", "at være på bølgelængde"]
     },
 
     "lowkey": {
@@ -51,5 +51,46 @@ words_dict = {
         "eksempler": "1. Han gav mig den største ick, da han sagde, at han ikke kunne lide at vaske hænder.", 
         "ordklasse": "Substantiv",
         "synonymer": ["frastødende", "klamt", "turn-off"]
+    },
+
+    "cringe": {
+        "betydninger": "1. Noget usejt eller pinligt. <br><br> 2. At føle ubehag ved noget.",
+        "eksempler": "1. Det er ret cringe at bruge Doodle til at planlægge møder.<br><br>2. Jeg cringer over, at jeg sagde det.",
+        "ordklasse": "Adjektiv",
+        "synonymer": ["pinligt", "usejt", "ubehageligt"]
+    },
+
+    "BRAT": {
+        "betydninger": "1. Man er brat, hvis man er lidt messy og ikke går så meget op i perfekthedskultur, men i stedet er mere villig til at gøre dumme ting. <br><br> 2. At være autentisk og modig.",
+        "eksempler": "1. kamela IS brat, <br><br>2. jeg har bare en ægte brat summer",
+        "ordklasse": "Adjektiv",
+        "synonymer": ["messy", "autentisk", "modig"]
+},
+    "GOAT": {
+        "betydninger": "1. Noget eller nogen der er virkelig virkelig godt (Greatest Of All Time). <br><br> 2. At være den bedste til noget.",
+        "eksempler": "1. IM er GOAT til at bage kage.<br><br>2. Den her kage er GOAT.",
+        "ordklasse": "Substantiv / Adjektiv",
+        "synonymer": ["bedste", "mester", "konge"]
+    },
+
+    "rizz": {
+        "betydninger": "1. Evnen til at charmere eller flirte med succes. <br><br> 2. En naturlig karisma, især i romantiske situationer.",
+        "eksempler": "1. Han har så meget rizz, at alle falder for ham.<br><br>2. Du skal bruge lidt mere rizz, hvis du vil imponere hende.",
+        "ordklasse": "Substantiv",
+        "synonymer": ["karisma", "charme", "tiltrækningskraft"]
+    },
+
+    "boomer": {
+        "betydninger": "1. En person fra babyboomer-generationen (født ca. 1946-1964). <br><br> 2. En slangbetegnelse for en ældre person, ofte brugt humoristisk eller sarkastisk om nogen, der opfattes som gammeldags eller ude af trit med moderne kultur.",
+        "eksempler": "1. Min kollega er lidt boomer, når hun påstår ikke at forstå tiktok og ikke bruger 'yeet' i daglig tale.<br><br>2. Det er såååå boomer-agtigt at sende en mail i stedet for at skrive på Slack.",
+        "ordklasse": "Substantiv",
+        "synonymer": ["ældre", "traditionel", "gammeldags (slang)"]
+    },
+
+    "shippe": {
+        "betydninger": "1. At støtte eller ønske et forhold mellem to personer, enten romantisk eller som en tæt venskabelig relation (fx bromance).",
+        "eksempler": "1. Jeg shipper virkelig de to – de passer perfekt sammen.<br><br>2. Folk shipper deres venskab som den ultimative bromance.",
+        "ordklasse": "Verbum",
+        "synonymer": ["heppe på", "ønske", "fantasere om"]
     }
 }
