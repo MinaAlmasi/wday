@@ -3,7 +3,7 @@ words_dict = {
         "betydninger": "1. En hurtig bevægelse. <br><br> 2. At kaste noget med stor kraft. <br><br> 3. At skynde sig",
         "eksempler": "De yeetede væk fra flodbølgen.<br><br>Denne eksamen skal bare yeetes igennem.",
         "ordklasse": "Verbum",
-        "synonymer": ["at løbe", "at spurgte", "at skyndte sig"]
+        "synonymer": ["at løbe", "at spurte", "at skynde sig"]
     },
     "vibe": {
         "betydninger": "1. En måde at udtrykke præference 'at kunne lide'.<br><br> 2. En følelse eller stemning <br><br> 3. At være i overensstemmelse med en anden person",
@@ -21,7 +21,7 @@ words_dict = {
 
     "zoomer": {
         "betydninger": "1. En person, der er født i generation Z (1997-2012).<br><br>2. En person, der er født i generation Z og er meget teknologisk kyndig.", 
-        "eksempler": "1. Hun er født i 2000, så hun er i hvert fald ikke en millienial.<br><br>2. Min kollega er en rigtig zoomer. Hun siger ofte 'yeet' og er farlig med en computer.",
+        "eksempler": "1. Hun er født i 2000, så hun er i hvert fald ikke en millienial, men zoomer.<br><br>2. Min kollega er en rigtig zoomer. Hun siger ofte 'yeet' og er farlig med en computer.",
         "ordklasse": "Substantiv",
         "synonymer": ["generation Z", "ung", "ikke 30 år gammel"]
 },
