@@ -18,49 +18,75 @@ st.markdown("""
     .book-container {
         background-color: #f9f7f1;
         border-radius: 10px;
-        padding: 2rem 2rem;
+        padding: 1rem;
         box-shadow: 0 4px 2px rgba(0,0,0,0.1), 
                     0 8px 16px rgba(0,0,0,0.1);
         margin: 0;
         border-left: 15px solid #8B4513;
+        max-width: 100%;
+        box-sizing: border-box;
     }
+    
+    /* Responsive padding adjustments */
+    @media (max-width: 768px) {
+        .book-container {
+            padding: 2.25rem;
+            border-left-width: 10px;
+        }
+    }
+    
+    /* Further adjustments for very small screens */
+    @media (max-width: 480px) {
+        .book-container {
+            padding: 2rem;
+            border-left-width: 8px;
+        }
+    }
+    
     .book-title {
         font-family: 'Georgia', serif;
         color: #8B4513;
         text-align: center;
-        font-size: 1.8rem;
-        margin-bottom: 1rem;
+        font-size: clamp(1.2rem, 4vw, 1.8rem);
+        margin-bottom: 0.75rem;
     }
+    
     .text {
         font-family: 'Georgia', serif;
         color: #444;
         text-align: center;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
         font-style: italic;
+        font-size: clamp(0.9rem, 3vw, 1rem);
     }
+    
     .word-title {
         font-family: 'Georgia', serif;
         color: #444;
         text-align: center;
         border-bottom: 2px solid #8B4513;
-        padding-bottom: 1rem;
-        margin-bottom: 2rem;
-        font-size: 2.5rem;
+        padding-bottom: 0.75rem;
+        margin-bottom: 1.5rem;
+        font-size: clamp(1.5rem, 5vw, 2.5rem);
     }
+    
     .section-content {
         font-family: 'Georgia', serif;
         color: #444;
-        margin: 1rem 0;
+        margin: 0.75rem 0;
         padding: 0.5rem;
         border-bottom: 1px solid #ddd;
+        font-size: clamp(0.9rem, 3vw, 1rem);
     }
             
     div.stButton > button {
         background-color: #8B4513;
         color: white;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
     }
     
-    /* Added styles to handle button states */
     div.stButton > button:active, 
     div.stButton > button:focus,
     div.stButton > button:hover,
@@ -71,21 +97,27 @@ st.markdown("""
         box-shadow: none !important;
     }
             
-    /* Styles to handle button states with visual feedback */
     div.stButton > button:hover {
-        background-color: #A0522D; /* Lighter shade on hover */
-        color: white;
-    }
-    div.stButton > button:active {
-        background-color: #5C3317; /* Darker shade on click */
-        color: white;
+        background-color: #A0522D;
     }
     
-    /* Style for select box */
+    div.stButton > button:active {
+        background-color: #5C3317;
+    }
+    
     div.stSelectbox > div > div {
         background-color: #f9f7f1;
         border-color: #8B4513;
         color: #444;
+        max-width: 100%;
+    }
+    
+    /* Add container width control */
+    .main .block-container {
+        max-width: 100% !important;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+        padding-top: 2rem !important;
     }
     </style>
 """, unsafe_allow_html=True)
